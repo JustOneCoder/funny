@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>       <!--导航栏颜色-->
+        <item name="colorPrimaryDark">@android:color/transparent</item>  <!--状态栏颜色-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:fitsSystemWindows">true</item>      <!--持有状态栏的位子-->
+        <item name="android:statusBarColor">@android:color/transparent</item>     <!--状态栏透明-->
+    </style>
+</resources>

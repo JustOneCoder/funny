@@ -1,0 +1,1 @@
+include ':app', ':ijkplayer-x86_64', ':ijkplayer-java', ':ijkplayer-example', ':ijkplayer-x86', ':ijkplayer-armv5', ':ijkplayer-arm64', ':ijkplayer-exo', ':ijkplayer-armv7a'

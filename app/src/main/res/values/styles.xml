@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item><!--导航栏颜色@color/colorPrimaryDark-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>  <!--状态栏颜色-->
+        <item name="colorAccent">@color/colorAccent</item>         <!--控件选中颜色-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->         <!--半透明状态栏-->
+       <!-- <item name="android:fitsSystemWindows">false</item>-->      <!--不持有状态栏的位子-->
+        <item name="android:windowIsTranslucent">false</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+    </style>
+
+    <style name="RatingBar" parent="AppTheme">
+        <item name="android:selectableItemBackground">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
+
+
