@@ -12,3 +12,22 @@
 <img src="https://github.com/JustOneCoder/funny/blob/master/img-folder/funny3.png?raw=true" width = "300" height = "533"alt="图片总览"/>
 <img src="https://github.com/JustOneCoder/funny/blob/master/img-folder/funny4.png?raw=true" width = "300" height = "533"alt="图片总览"/>
 </div>
+
+# 技术点
+### 整体开发模式
+- MVP
+
+### 网络请求及异步处理：
+- RxJava2+Retrofit2（早前使用RxJava+Retrofit，可以回滚查看）
+- Okhttp
+- Gson
+
+### 图片加载：
+- Picasso
+
+### 视频播放器 ：
+- GSYVideoPlayer
+- [https://github.com/CarGuo/GSYVideoPlayer.git][0]
+
+
+
