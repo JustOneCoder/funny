@@ -27,7 +27,7 @@
 
 ### 视频播放器 ：
 - GSYVideoPlayer
-- [https://github.com/CarGuo/GSYVideoPlayer.git][0]
+- [https://github.com/CarGuo/GSYVideoPlayer.git]
 
 
 
