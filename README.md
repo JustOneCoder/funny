@@ -23,7 +23,7 @@
 - Gson
 
 ### 图片加载：
-- Picasso
+- Glide
 
 ### 视频播放器 ：
 - GSYVideoPlayer
