@@ -79,8 +79,7 @@ public class NewsCommonRecyclerAdapter extends BaseRecyclerViewAdapter{
             String imgsrc = newsBean.getImgsrc();
             Glide.with(getContext())
                     .load(imgsrc)
-                    .fitCenter()
-                    .thumbnail(0.1f)
+                    .centerCrop()
                     .into(img);
         }
     }

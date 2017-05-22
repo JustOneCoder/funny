@@ -3,9 +3,12 @@ package com.flf.funny.presenter.news;
 import android.content.Context;
 import android.util.Log;
 
+import com.flf.funny.FunnyApplication;
 import com.flf.funny.model.model.news.NewsSportModel;
 import com.flf.funny.model.bean.BaseItem;
 import com.flf.funny.presenter.base.NewsAndGameLivePagerPresenter;
+import com.flf.funny.service.config.Constants;
+import com.flf.funny.service.config.disklrucache.DiskCacheManager;
 import com.flf.funny.ui.fragment.news.SportPagerFragment;
 
 import java.util.ArrayList;
@@ -44,8 +47,8 @@ public class SportPagerPresenter extends NewsAndGameLivePagerPresenter {
             @Override
             public void onSuccess(ArrayList<BaseItem> value) {
                 //获取数据成功
-                //DiskCacheManager manager = new DiskCacheManager(FunnyApplication.getContext(), Constants.CACHE_NEWS_FILE);
-                //manager.put(Constants.CACHE_RECOMMEND_NEWS, value);
+                DiskCacheManager manager = new DiskCacheManager(FunnyApplication.getContext(), Constants.CACHE_NEWS_FILE);
+                manager.put(Constants.CACHE_SPORT_NEWS, value);
                 currentIndex += 20;
                 view.showRefreshData(value);
                 Log.e(TAG, "onSuccess: "+value.size());
