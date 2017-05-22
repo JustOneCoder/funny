@@ -15,7 +15,6 @@
 </div>
 
 # 参考
-### 整体开发模式
 - [https://github.com/PandaQAQ/PandaEye]
 - [https://github.com/452MJ/C9MJ]
 - 项目中参考了上面两个项目的api合源码,在此感谢
