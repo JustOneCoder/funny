@@ -18,7 +18,7 @@
 - MVP
 
 ### 网络请求及异步处理：
-- RxJava2+Retrofit2（早前使用RxJava+Retrofit，可以回滚查看）
+- RxJava2+Retrofit2
 - Okhttp
 - Gson
 
